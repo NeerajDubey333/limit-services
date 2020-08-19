@@ -1,4 +1,4 @@
-nod {
+node {
       def mvn = tool ('mavan 3.6.2.3',type: 'mavan' )+'/bin/mvn'
 
 stage('scm cheakout'){ 
