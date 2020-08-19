@@ -4,7 +4,7 @@ node {
 stage('scm cheakout'){ 
        git 'https://github.com/NeerajDubey333/limit-services.git'
 }
-stage ('mvn package'){ 
+//stage ('mvn package'){ 
      //Build using mavan
      sh" ${mvn}clean packakeg "
   }
