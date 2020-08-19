@@ -1,5 +1,5 @@
 nod {
-      def=mvn tool ('mavan 3.6.2.3'type: 'mavan' )+'/bin/mvn'
+      def mvn = tool ('mavan 3.6.2.3'type: 'mavan' )+'/bin/mvn'
 
 stage(scm cheakout){ 
        git https://github.com/NeerajDubey333/limit-services.git
